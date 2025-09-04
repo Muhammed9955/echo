@@ -7,7 +7,7 @@ import { ChevronDown } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section className=" w-full flex flex-col md:flex-row items-center justify-between text-center bg-rose-400 p-5">
+    <section className=" w-full flex flex-col md:flex-row items-center justify-between text-center bg-rose-400 p-5 rounded-xl">
       <div className="">
         {/* Hero Content */}
         <div className="relative z-10 max-w-2xl px-4">
@@ -30,9 +30,9 @@ export default function Hero() {
           </div>
 
           {/* Scroll Down Indicator */}
-          <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
+          {/* <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
             <ChevronDown className="h-8 w-8 text-white" />
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="w-full  h-full md:w-1/2 md:h-full  flex items-center justify-center   ">

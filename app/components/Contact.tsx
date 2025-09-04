@@ -29,7 +29,7 @@ export default function Contact() {
           <FaWhatsapp size={20} /> WhatsApp
         </a>
         <a
-          href="https://m.me/echo.alexandria" // Replace with academy Messenger link
+          href="https://m.me/echo.alexandria.2025" // Replace with academy Messenger link
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-full shadow-md hover:bg-blue-700 transition"

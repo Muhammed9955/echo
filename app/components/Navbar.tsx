@@ -19,11 +19,11 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white shadow-md sticky top-0 z-50">
-      <div className="container mx-auto flex items-center justify-between p-x-4 py-2">
+      <div className="container mx-auto flex items-center justify-between px-4 py-2">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
           <Image
-            className="rounded-full w-14 h-14 object-contain"
+            className="rounded-full w-12 h-12 md:w-14 md:h-14 object-contain"
             src="/images/logo.jpg"
             alt="EChO Alexandria Logo"
             width={100}
