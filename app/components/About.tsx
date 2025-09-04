@@ -13,7 +13,7 @@ export default function About() {
         />
       </div>
       <div className="md:w-1/2 text-center md:text-left">
-        <h2 className="text-3xl font-bold mb-4 text-blue-600">About Us</h2>
+        <h2 className="text-3xl font-bold mb-4 ">About Us</h2>
         <p className="text-gray-600">
           EChO Alexandria is a community-driven academy that helps learners
           improve their English through engaging courses, interactive speaking

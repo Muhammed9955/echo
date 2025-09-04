@@ -9,16 +9,14 @@ const events = [
   {
     title: "Public Workshop for kids",
     date: "Oct 5, 2025",
-    img: "/images/kids-event.jpg",
+    img: "/images/kids-event-1.jpg",
   },
 ];
 
 export default function Events() {
   return (
     <section className="py-20">
-      <h2 className="text-3xl font-bold mb-8 text-center text-blue-600">
-        Upcoming Events
-      </h2>
+      <h2 className="text-3xl font-bold mb-8 text-center ">Upcoming Events</h2>
       <div className="grid md:grid-cols-2 gap-6">
         {events.map((event, i) => (
           <div
@@ -28,7 +26,7 @@ export default function Events() {
             <Image
               src={event.img}
               alt={event.title}
-              className="h-80 w-full object-cover"
+              className="h-100 w-full object-fit"
               width={400}
               height={160}
             />

@@ -6,7 +6,7 @@ import { FaWhatsapp, FaFacebookMessenger } from "react-icons/fa";
 export default function Contact() {
   return (
     <section className="py-20 text-center">
-      <h2 className="text-3xl font-bold mb-6 text-blue-600">Contact Us</h2>
+      <h2 className="text-3xl font-bold mb-6 ">Contact Us</h2>
 
       {/* Contact Form */}
       <form className="max-w-xl mx-auto space-y-4 mb-10">

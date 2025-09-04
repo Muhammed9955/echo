@@ -22,9 +22,7 @@ const courses = [
 export default function Courses() {
   return (
     <section className="py-20">
-      <h2 className="text-3xl font-bold mb-8 text-center text-blue-600">
-        Our Courses
-      </h2>
+      <h2 className="text-3xl font-bold mb-8 text-center ">Our Courses</h2>
       <div className="grid md:grid-cols-3 gap-6">
         {courses.map((course, i) => (
           <Card

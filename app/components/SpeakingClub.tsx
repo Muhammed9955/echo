@@ -13,9 +13,7 @@ export default function SpeakingClub({
   return (
     <section className="py-20 bg-gray-50">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-blue-600 mb-4">
-          Speaking Club
-        </h2>
+        <h2 className="text-3xl md:text-4xl font-bold  mb-4">Speaking Club</h2>
         <p className="text-gray-600 mb-12 max-w-2xl mx-auto">
           Join our interactive Speaking Club sessions to practice English in a
           fun, social, and supportive environment. Meet new friends, improve
@@ -43,7 +41,7 @@ export default function SpeakingClub({
         <div className="mt-12">
           <a
             href="/speaking-club"
-            className="inline-block px-8 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-lg hover:bg-blue-700 transition"
+            className="inline-block px-8 py-3 bg-black text-white font-semibold rounded-lg shadow-lg  transition"
           >
             Join Our Club
           </a>

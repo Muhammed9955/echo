@@ -7,7 +7,7 @@ import { ChevronDown } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section className=" w-full flex flex-col md:flex-row items-center justify-between text-center bg-rose-400 p-5 rounded-xl">
+    <section className=" w-full flex flex-col md:flex-row items-center justify-between text-center bg-violet-600 p-5 rounded-xl">
       <div className="">
         {/* Hero Content */}
         <div className="relative z-10 max-w-2xl px-4">
